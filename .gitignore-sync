@@ -1,0 +1,7 @@
+[github/gitignore]
+Node.gitignore
+Global/macOS.gitignore
+Global/VisualStudioCode.gitignore
+
+[inline]
+lib
