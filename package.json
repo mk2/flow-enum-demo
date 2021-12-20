@@ -4,6 +4,8 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
+    "start": "run-s build exec",
+    "exec": "node lib/index.js",
     "build": "babel src/ -d lib/",
     "prepublish": "npm run build",
     "flow": "flow",
@@ -19,6 +21,7 @@
     "babel-plugin-transform-flow-enums": "^0.0.2",
     "flow-bin": "^0.168.0",
     "ignore-sync": "^4.0.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.5.1"
   },
   "dependencies": {
